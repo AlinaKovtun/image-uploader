@@ -1,0 +1,9 @@
+<p>
+  <% if @post.image.attached? %>
+  <p>
+    <strong>Image:</strong>
+    <br>
+    <%= image_tag @post.image %>
+  </p>
+<% end %>
+</p>
